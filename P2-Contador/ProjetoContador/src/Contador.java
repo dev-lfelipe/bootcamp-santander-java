@@ -5,25 +5,29 @@ public class Contador {
         Scanner resposta = new Scanner(System.in);
         int primeiroNum, segundoNum;
 
-        System.out.println("Digite o primeiro número: ");
+        System.out.print("Digite o primeiro número: ");
         primeiroNum = resposta.nextInt();
-        System.out.println("Digite o segundo número: ");
+        System.out.print("Digite o segundo número: ");
         segundoNum = resposta.nextInt();
 
         try{
             contar(primeiroNum, segundoNum);
         }catch (ParametrosInvalidosException exception){
-            System.out.println("O primeiro número precisa ser menor que o segundo!")       
+            System.out.println("O primeiro número precisa ser menor que o segundo!");      
         }
 
         resposta.close();
     }
 
-    static void contar(int primeiroNum, int segundoNum) throws ParametrosInvalidosException{
-        int contagem = primeiroNum - segundoNum;
+    static void contar(int primeiroNum, int segundoNum) throws ParametrosInvalidosException{        
+        if (primeiroNum > segundoNum){
+            throw new ParametrosInvalidosException();
+        }else{
+            int contagem = segundoNum - primeiroNum;
 
-        for(int i = 0; i < contagem; i++) {
-            System.out.println("Imprimindo o número " + contagem);
+            for(int i = 0; i < contagem; i++) {
+                System.out.println("Imprimindo o número " + (i + 1));
+            }
         }
     }
 }
