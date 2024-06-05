@@ -12,16 +12,14 @@ public class Contador {
 
         try{
             contar(primeiroNum, segundoNum);
-        }catch (Exception NumeroInvalido){
-            if (primeiroNum > segundoNum) {
-                System.out.println("O primeiro número precisa ser menor que o segundo!");
-            }            
+        }catch (ParametrosInvalidosException exception){
+            System.out.println("O primeiro número precisa ser menor que o segundo!")       
         }
 
         resposta.close();
     }
 
-    static void contar(int primeiroNum, int segundoNum) throws Exception{
+    static void contar(int primeiroNum, int segundoNum) throws ParametrosInvalidosException{
         int contagem = primeiroNum - segundoNum;
 
         for(int i = 0; i < contagem; i++) {
