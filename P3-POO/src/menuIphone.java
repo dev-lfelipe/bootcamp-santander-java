@@ -1,7 +1,6 @@
-package iphone;
 import java.util.Scanner;
 
-public class menuIphone {
+public class menuIphone{
     public static void main(String[] args) {
         int opcao = 0;
         Scanner escolha = new Scanner(System.in);
@@ -17,7 +16,7 @@ public class menuIphone {
         do {
             switch (opcao) {
                 case 1:
-                    System.out.println("1");
+                    appMusical.reprodutorMusical();
                     break;
                     
                 case 2:
