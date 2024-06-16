@@ -20,7 +20,7 @@ public class menuIphone{
                     break;
                     
                 case 2:
-                    System.out.println("2");
+                    appTelefone.ligar();
                     break;
                     
                 case 3:
