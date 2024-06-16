@@ -7,7 +7,12 @@ Para o primeiro projeto do bootcamp foi requisitado desenvolver um programa em J
 
 Dificuldade: ⭐
 
-# Projeto 2: Contador (P1-Contador)
+# Projeto 2: Contador (P2-Contador)
 Para o segundo projeto do bootcamp foi requisitado desenvolver um programa em Java de um contador usando o laço For, onde o usuário digita 2 números e o programa realiza a contagem entre a diferença. Por exemplo: Parâmetro 1: 10, Parâmetro 2: 20 - O programa contará de 1 a 10.
 
 Dificuldade: ⭐⭐
+
+# Projeto 2: Contador (P3-POO)
+O terceiro projeto é uma representação em UML de aplicativos do Iphone utilizando POO como Herança, Encapsulamento e Interface. Para ser sincero não entendi muito bem o sistema de Interface em Java e como era opcional realizar o código, eu optei por um Switch Case que alterna entre as 3 funcionalidades definidas no UML.
+
+Dificuldade: ⭐
