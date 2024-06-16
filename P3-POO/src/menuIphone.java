@@ -24,7 +24,7 @@ public class menuIphone{
                     break;
                     
                 case 3:
-                    System.out.println("3");
+                    appInternet.exibirPagina();
                     break;
 
                 case 0:
