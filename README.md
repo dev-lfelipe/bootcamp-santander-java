@@ -12,7 +12,7 @@ Para o segundo projeto do bootcamp foi requisitado desenvolver um programa em Ja
 
 Dificuldade: ⭐⭐
 
-# Projeto 3: Contador (P3-POO)
+# Projeto 3: Aplicativos base do Iphone (P3-POO)
 O terceiro projeto é uma representação em UML de aplicativos do Iphone utilizando POO como Herança, Encapsulamento e Interface. Para ser sincero não entendi muito bem o sistema de Interface em Java e como era opcional realizar o código, eu optei por um Switch Case que alterna entre as 3 funcionalidades definidas no UML.
 
 Dificuldade: ⭐
