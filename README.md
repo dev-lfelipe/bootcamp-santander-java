@@ -16,3 +16,8 @@ Dificuldade: ⭐⭐
 O terceiro projeto é uma representação em UML de aplicativos do Iphone utilizando POO como Herança, Encapsulamento e Interface. Para ser sincero não entendi muito bem o sistema de Interface em Java e como era opcional realizar o código, eu optei por um Switch Case que alterna entre as 3 funcionalidades definidas no UML.
 
 Dificuldade: ⭐
+
+# Projeto 4: Banco Digital utilizando POO (P4-BancoDigitalPOO)
+O quarto projeto é uma "aprimoração" do primeiro projeto desenvolvido, dessa vez, utilizando-se de conceitos da Programação Orientada a Objeto para se criar diferentes classes. Nesse projeto utilizei de pacotes (onde importei cada um em cada arquivo) e também de uma interface para melhor entendimento do código.
+
+Dificuldade: ⭐⭐⭐
