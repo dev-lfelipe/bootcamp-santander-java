@@ -21,3 +21,8 @@ Dificuldade: ⭐
 O quarto projeto é uma "aprimoração" do primeiro projeto desenvolvido, dessa vez, utilizando-se de conceitos da Programação Orientada a Objeto para se criar diferentes classes. Nesse projeto utilizei de pacotes (onde importei cada um em cada arquivo) e também de uma interface para melhor entendimento do código.
 
 Dificuldade: ⭐⭐⭐
+
+# Projeto 5: Abstração de um Bootcamp (P5-AbstracaoBootcamp)
+O quinto projeto é colocando novamente os conceitos de orientação a objetos em prática com um foco maior em classes abstratas. Esse projeto foi bem tranquilo tendo em vista que tive a oportunidade de acompanhar o código da aula e também com experiência da aplicação dos projetos anteriores.
+
+Dificuldade: ⭐
