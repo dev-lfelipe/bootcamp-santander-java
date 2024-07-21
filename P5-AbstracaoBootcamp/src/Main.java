@@ -2,6 +2,14 @@ import dominio.*;
 
 import java.time.LocalDate;
 
+/*
+ * Esse código foi realizado utilizando como base o código presente na aula de abstração do 
+ * Desafio de Projeto da Dio.me
+ * 
+ * Fonte: https://github.com/cami-la/desafio-poo-dio
+ * 
+ */
+
 public class Main {
     public static void main(String[] args) {
         Curso cursoJava = new Curso();
