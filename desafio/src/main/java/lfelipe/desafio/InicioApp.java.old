@@ -1,0 +1,36 @@
+package lfelipe.desafio;
+
+import lfelipe.desafio.listeners.LogOpenListener;
+import lfelipe.desafio.listeners.NotificacaoEmail;
+import lfelipe.desafio.model.Editor;
+
+/*
+ * Esse projeto do Design Pattern - Observer foi desenvolvido com base num projeto de demonstração do 
+ * Refactoring.guru! A parte do Spring Boot tive como base o modelo presente no Github da Dio.me
+ * 
+ * Fontes: https://refactoring.guru/pt-br/design-patterns/observer/java/example
+ * 		   https://github.com/digitalinnovationone/lab-padroes-projeto-spring
+ *
+ * Autor da réplica: @dev-lfelipe
+ *
+ * Para rodar a versão "Java Puro" dos Padrões de Projeto retire o ".old" deste arquivo e coloque no
+ * "DesafioApplication.java"
+ * Base de ideia dessa versão: recebimento de aviso via e-mail quando alguma interação ocorre com alguma
+ * arquivo.
+ */
+
+
+public class InicioApp {
+    public static void main(String[] args) {
+        Editor editor = new Editor();
+        editor.eventos.inscricao("abrir", new LogOpenListener("/caminho/do/arquivo-log/log.txt"));
+        editor.eventos.inscricao("salvar", new NotificacaoEmail("desafioprojeto@dio.com"));
+
+        try {
+            editor.abrirArquivo("arquivo.txt");
+            editor.salvarArquivo();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
