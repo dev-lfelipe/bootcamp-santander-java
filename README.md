@@ -28,3 +28,8 @@ Dificuldade: ⭐⭐⭐
 O quinto projeto é colocando novamente os conceitos de orientação a objetos em prática com um foco maior em classes abstratas. Esse projeto foi bem tranquilo tendo em vista que tive a oportunidade de acompanhar o código da aula e também com experiência da aplicação dos projetos anteriores.
 
 Dificuldade: ⭐
+
+# Projeto 6: Java Design Patterns (desafio)
+O sexto projeto é uma implementação de um projeto utilizando-se de um Design Pattern. No meu caso eu utilizei no "Java Puro" o padrão de projeto Observer e no Spring Boot o padrão Strategy e Singleton.
+
+Dificuldade: ⭐⭐⭐⭐⭐
