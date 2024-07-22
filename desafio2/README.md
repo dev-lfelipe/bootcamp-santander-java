@@ -8,7 +8,6 @@ classDiagram
     -Long idUsuario
     -String username
     -String senha
-    -String perguntaSeguranca
     -String email
     -PlanoEscolhido[] planoEscolhido
     -NovasSeries[] novasSeries
