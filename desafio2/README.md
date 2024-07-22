@@ -16,8 +16,9 @@ classDiagram
   }
 
   class PlanoEscolhido {
-    -Integer valorPlano
+    -Float valorPlano
     -String tipoPlano
+    -Boolean anuncios
   }
 
   class NovasSeries {
