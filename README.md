@@ -33,3 +33,8 @@ Dificuldade: ⭐
 O sexto projeto é uma implementação de um projeto utilizando-se de um Design Pattern. No meu caso eu utilizei no "Java Puro" o padrão de projeto Observer e no Spring Boot o padrão Strategy e Singleton. As fontes utilizadas (Refactoring.guru e GitHub da aula) estão presentes no arquivo InicioApp.java.old e DesafioApplication.java.
 
 Dificuldade: ⭐⭐⭐⭐⭐
+
+# Projeto 7: API REST na nuvem com Railway (<a href="https://github.com/dev-lfelipe/bootcamp-santander-java/tree/main/desafio2">desafio2</a>)
+O sétimo e último projeto é uma implementação de um projeto (exatamente como o projeto anterior) e realizar a deploy dele na nuvem utilizando-se do Railway. Eu realizei todo o processo, porém, não consigo conexão com o banco de dados impossibilitando meu avanço no projeto. Busquei respostas na internet e até mesmo em IAs generativas, porém, sem sucesso. Infelizmente até o atual momento o projeto está inacabado.
+
+Dificuldade: ⭐⭐⭐⭐⭐
