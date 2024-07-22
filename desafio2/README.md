@@ -6,18 +6,17 @@
 classDiagram
   class Usuario {
     -Long idUsuario
-    -String username
-    -String senha
-    -String perguntaSeguranca
     -String email
+    -String senha
     -PlanoEscolhido[] planoEscolhido
     -NovasSeries[] novasSeries
     -Favoritos[] favoritos
   }
 
   class PlanoEscolhido {
-    -Integer valorPlano
+    -Float valorPlano
     -String tipoPlano
+    -Boolean anuncios
   }
 
   class NovasSeries {
