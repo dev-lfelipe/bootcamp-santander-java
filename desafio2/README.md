@@ -6,9 +6,8 @@
 classDiagram
   class Usuario {
     -Long idUsuario
-    -String username
-    -String senha
     -String email
+    -String senha
     -PlanoEscolhido[] planoEscolhido
     -NovasSeries[] novasSeries
     -Favoritos[] favoritos
